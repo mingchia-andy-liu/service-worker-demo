@@ -1,0 +1,19 @@
+.c-network-view {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding: map-get($spacing__map, lg);
+}
+
+.c-pair-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: map-get($spacing__map, md);
+
+    img {
+        width: 50%;
+        height: auto;
+        padding: map-get($spacing__map, sm);
+    }
+}

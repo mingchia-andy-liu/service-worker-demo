@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box !important;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100%;
+    background-color: $color-grey-15;
+}
+
+h1, h2, h3, h4, h5, p, ol, ul, li, label {
+    color: $color-grey-95;
+}
+
+button:focus {
+    outline: none;
+}
+
+button, input {
+    cursor: pointer;
+}
