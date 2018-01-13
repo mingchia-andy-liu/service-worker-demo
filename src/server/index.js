@@ -27,6 +27,11 @@ if (process.env.NODE_ENV !== 'production') {
     require('./handlers/webpack')(app)
 }
 
+// fake route setup for background sync
+app.post('/test',(req, res) => {
+    res.send(req.body)
+})
+
 // Serve static content
 app.use('/', express.static(`${ROOT_DIR}/src/public`))
 

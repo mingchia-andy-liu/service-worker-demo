@@ -1,6 +1,6 @@
 // IndexedDB Utils
 // ---
-export const DATABASE_NAME = 'poopdatabase'
+export const DATABASE_NAME = 'demo'
 export const indexedDB = window.indexedDB || window.mozIndexedDB || window.webkitIndexedDB || window.msIndexedDB || window.shimIndexedDB
 
 export const onError = (event) => {

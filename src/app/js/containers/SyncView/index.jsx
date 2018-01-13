@@ -55,8 +55,7 @@ class SyncView extends Component {
         })
         return (
             <div className="c-sync-view">
-                <h2>Press to be blessed</h2>
-                <p> Type in a message without wifi see what happens? </p>
+                <p>If there is no network connection, messages will be held and fire when the connection is back.</p>
                 <input
                     className="c-sync-input"
                     ref={input => this.messageNode = input}
@@ -85,12 +84,10 @@ SyncView.propTypes = {
 }
 
 
-const mapStateToProps = (states) => {
-    return {
-        messages: states.sync.messages,
-        isPending: states.sync.isPending
-    }
-}
+const mapStateToProps = (states) => ({
+    messages: states.sync.messages,
+    isPending: states.sync.isPending
+})
 
 const mapDispatchToProps = (dispatch) => {
     return bindActionCreators({
