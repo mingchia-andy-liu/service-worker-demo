@@ -1,9 +1,17 @@
-# This is part of a school project
+# This is a Service Worker Demo Repo
+I believe serivce worker is the future. So I chose the topice to demostrate in our web course.
+Service worker is a very powerful tool that allows web apps to be faster and more responsive.
+
+## Features
+This repo demostrate 3 main features of SW:
+1. Cache policies
+1. Background Sync and Push Notification
+1. Offline mode.
+
+#### This was part of a school project
 Credits to my teammates: Jonathan Lo, Seleena Hua, Hugo Cheng, and Kieran McCormick.
-I have stripped out most of people's work and added some of mine to demostrate the work of service worker.
+I have stripped out all their work and added some of mine to demostrate the work of service worker.
 
-
-Service worker is a very powerful tool that allows web apps to be faster and more responsive. This repo demostrate 3 main features of SW: Cache policies, Background Sync, and Push Notification. And a bouns offline mode.
 
 #### Get started
 Run these commands in your terminal
